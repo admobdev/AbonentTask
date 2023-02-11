@@ -1,0 +1,20 @@
+@file:Suppress("SpellCheckingInspection")
+
+package beginAnswers
+
+import kotlin.math.*
+
+fun main() {
+
+    println("X1 tomoni kiritilsin: ")
+    val x1 = readln().toInt()
+    println("Y1 tomoni kiritilsin: ")
+    val y1 = readln().toInt()
+    println("X2 tomoni kiritilsin: ")
+    val x2 = readln().toInt()
+    println("Y2 tomoni kiritilsin: ")
+    val y2 = readln().toInt()
+
+    println("Yuzasi: ${abs(x2 - x1) * abs(y2 - y1)}")
+    println("Perimetri: ${2 * abs(x2 - x1) + abs(y2 - y1)}")
+}
