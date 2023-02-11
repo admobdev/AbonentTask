@@ -1,4 +1,0 @@
-package Learning
-
-class Nullable {
-}
