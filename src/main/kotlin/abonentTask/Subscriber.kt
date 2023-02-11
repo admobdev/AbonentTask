@@ -4,7 +4,7 @@ import java.util.*
 
 /**
  *Creator: Karimov Ozodbek
- *Date 02/02/2023
+ *Date 11/02/2023
  */
 data class Subscriber(val name: String, val phone: String, val balance: Float, val company: String) {
 
