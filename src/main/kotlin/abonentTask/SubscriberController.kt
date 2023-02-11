@@ -6,7 +6,7 @@ import kotlin.system.exitProcess
 
 /**
  * Creator: Karimov Ozodbek
- * Date 02/02/2023
+ * Date 11/02/2023
  */
 
 private var subscriberList = ArrayList<Subscriber>()
